@@ -2,7 +2,7 @@
 
 Denominamos de **rentângulo xy-alinhado** um retângulo _R_ cujos lados são paralelos aos eixos Cartesianos _X_ e _Y_. Tal retângulo é caracterizado por seu canto inferior esquerdo _(Rx,Ry)_, e sua largura _Rw_ e altura _Rh_.
 
-Sejam _R_ e _S_ dois retângulos $xy$-alinhados no plano Cartesiano, escreva uma função denominada de `Rect intersect(const Rect& R, const Rect& S)` que testa se _R_ e _S_ possui uma interseção não-vazia. Se a interseção for não-vazia, retorne o retângulo formado por essa intersção, caso contrário retorne um retângulo inválido (i.e. um retângulo que possua largura e altura com valores negativos).
+Sejam _R_ e _S_ dois retângulos xy-alinhados no plano Cartesiano, escreva uma função denominada de `Rect intersect(const Rect& R, const Rect& S)` que testa se _R_ e _S_ possui uma interseção não-vazia. Se a interseção for não-vazia, retorne o retângulo formado por essa intersção, caso contrário retorne um retângulo inválido (i.e. um retângulo que possua largura e altura com valores negativos).
 
 Cada retângulo será representado em uma linha de texto contendo 4 valores reais de precisão simples: os dois primeiros valores correspondem às coordenadas _(x,y)_ do canto inferior esquerdo do retângulo, e os próximos dois valores correspondem a _largura_ e _altura_  do retângulo, respectivamente.
 
