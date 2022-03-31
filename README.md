@@ -1,6 +1,6 @@
 # Interseção de Retângulos
 
-Denominamos de **rentângulo $xy$-alinhado** um retângulo `$R$` cujos lados são paralelos aos eixos Cartesianos $X$ e $Y$. Tal retângulo é caracterizado por seu canto inferior esquerdo $(R_x,R_y)$, e sua largura $R_w$ e altura $R_h$.
+Denominamos de **rentângulo $xy$-alinhado** um retângulo $`R`$ cujos lados são paralelos aos eixos Cartesianos $X$ e $Y$. Tal retângulo é caracterizado por seu canto inferior esquerdo $(R_x,R_y)$, e sua largura $R_w$ e altura $R_h$.
 
 Sejam $R$ e $S$ dois retângulos $xy$-alinhados no plano Cartesiano, esreva uma função denominada de `Rect intersect(const Rect& R, const Rect& S)` que testa se $R$ e $S$ possui uma interseção não-vazia. Se a interseção for não-vazia, retorne o retângulo formado por essa intersção, caso contrário retorne um retângulo inválido (i.e. um retângulo que possua largura e altura com valores negativos).
 
