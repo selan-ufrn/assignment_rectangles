@@ -64,7 +64,7 @@ Para você poder compilar e executar os testes preparados para o exercício é n
 + [cmake](https://cmake.org/): para gerar os arquivos _Makefiles_, que gerenciam a compilação otimizada do projeto.
 + [Python](https://www.python.org/): para executar o script de teste de comparação de saída gerada/esperada.
 
-## Instruções Categoria Implementação de Programa
+## Instruções para compilar o projeto
 A partir da pasta do projeto faça:
 1. Edite o arquivo `src/main.cpp` e implemente a solução do problema.
 2. Execute o comando do `cmake` para gerar os arquivos intermediários. Esse comando cria a pasta `build` que conterá os arquivos _Makefile_ e onde o executável será gerado.
